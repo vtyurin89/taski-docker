@@ -16,5 +16,6 @@ class TaskView(viewsets.ModelViewSet):
 
 
 class NothingView(viewsets.ModelViewSet):
+    var = 0
     pass
 
